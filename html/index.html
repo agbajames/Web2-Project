@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Things I need to Learn</h1>
+
+
+
+    <section class="ALL-TASKS">
+      <h2 class="task-list-title">My Learning list</h2>
+
+      <ul class="task-list">
+        <li class="active-list">HTML</li>
+        <li class="list-name">CSS</li>
+        <li class="list-name">JAVASCRIPT</li>
+      </ul>
+
+      <form action="">
+        <input 
+          type="text"
+          class="new list"
+          placeholder="Enter new list here"
+        />
+        <button class="btn create">+</button>
+      </form>
+    </section>
+
+
+
+    <section class="TODO-LIST">
+
+      <div class="todo-header">
+        <h2 class="list-title">HTML</h2>
+        <p class="task-count">2 tasks remaining</p>
+      </div>
+
+      <div class="todo-body">
+        <div class="tasks">
+          <div class="task">
+            <input 
+              type="checkbox"
+              id="task-1"
+            />
+       <span> Watch Intro to HTML </span>
+          </div>
+
+          <div class="task">
+              <input 
+                type="checkbox"
+                id="task-2"
+              />
+                <span> Watch HTML Video 2 </span>
+            </div>
+
+            <div class="task">
+                <input 
+                  type="checkbox"
+                  id="task-3"
+                />
+                <span> Practise session 1 </span>
+              </div>
+            
+        </div>
+
+        <div class="new-task-creator">
+            <form action="">
+                <input 
+                  type="text"
+                  class="new task"
+                  placeholder="Enter new task here"
+                />
+                <button class="btn create" aria-label="create new task">+</button>
+            </form>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
